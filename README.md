@@ -1,5 +1,8 @@
 Spotify Listening History Analysis - Power BI Dashboard
+
+
 Project Overview
+
 This Power BI dashboard analyzes personal Spotify streaming data to uncover listening trends, top artists/albums/tracks, and hourly/daily playback patterns. The interactive report helps visualize music consumption habits over time.
 Key Features
 ✔ Top Stats: Most-played artists, albums, and tracks.
