@@ -5,11 +5,16 @@ Project Overview
 
 This Power BI dashboard analyzes personal Spotify streaming data to uncover listening trends, top artists/albums/tracks, and hourly/daily playback patterns. The interactive report helps visualize music consumption habits over time.
 Key Features
-✔ Top Stats: Most-played artists, albums, and tracks.
-✔ Time Analysis: Listening trends by hour, day, and year.
-✔ Interactive Filters: Filter by platform (mobile/desktop), shuffle mode, and skipped tracks.
-✔ Metrics: Average listening duration, repeat plays, and skip rates.
+ Top Stats: Most-played artists, albums, and tracks.
+ 
+ Time Analysis: Listening trends by hour, day, and year.
+ 
+ Interactive Filters: Filter by platform (mobile/desktop), shuffle mode, and skipped tracks.
+ 
+ Metrics: Average listening duration, repeat plays, and skip rates.
+ 
 Tools Used
+
 Power BI (Data modeling, visualization)
 
 Power Query (Data cleaning)
@@ -54,22 +59,29 @@ Performance: Optimized Power Query transformations to reduce dashboard load time
 
 Key Fields
 Column	Description
+
 ts	Timestamp (UTC) of playback
+
 ms_played	Duration played (milliseconds)
+
 track_name	Name of the track
+
 artist_name	Name of the artist
+
 platform	Device used (mobile/desktop)
+
 shuffle	Whether shuffle mode was enabled
+
 Dashboard Features
-✔ Interactive Filters: Drill down by date range, platform, or shuffle mode.
-✔ Visualizations:
 
-Hourly heatmap of listening frequency.
+ Interactive Filters: Drill down by date range, platform, or shuffle mode.
+ Visualizations:
 
-Top artists/albums with play counts.
+  Hourly heatmap of listening frequency.
 
-YoY trend comparison.
-✔ Metrics: Skip rate, average play duration, repeat tracks.
+   Top artists/albums with play counts.
+
+
 
 Tools & Techniques
 Power BI: DAX measures, custom visuals (e.g., heatmaps).
@@ -85,11 +97,7 @@ Clone this repo or adapt the DAX/model for your dataset.
 
 
 
-Video Walkthrough: YouTube Demo
-
-Let me know if you’d like to add specific DAX formulas or dataset samples!
-
-New chat
+V
 
 
 
